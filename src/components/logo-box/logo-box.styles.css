@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.logo-bar{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.logo-bar > *{
+    display: inline-flex;
+}
+
+.logo-bar > h3{
+    margin-left: 20px;
+    font-size: 72px;
+    font-family: 'Permanent Marker', cursive;
+    color: skyblue;
+}
+@media screen and (min-width: 0) and (max-width: 500px) {
+    .logo-bar{
+        justify-content: center;
+    }
+    
+}
